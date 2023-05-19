@@ -1,5 +1,5 @@
 {
-    "name": "cmdinglasan/filament-boring-avatars",
+    "name": "shipu/filament-boring-avatars",
     "description": "Change the default avatar URL provider for Filament to one from Boring Avatars.",
     "keywords": [
         "laravel",
@@ -14,17 +14,22 @@
             "name": "Christian Dinglasan",
             "email": "dinglasanchristian@outlook.com",
             "role": "Developer"
+        },
+        {
+            "name": "Shipu Ahamed",
+            "email": "shipuahamed01@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.0.2",
         "filament/filament": "^2.0",
         "spatie/laravel-package-tools": "^1.9.2",
-        "illuminate/contracts": "^9.0"
+        "illuminate/contracts": "^9.0|^10.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
-        "nunomaduro/collision": "^6.0",
+        "nunomaduro/collision": "^6.0|^7.0",
         "nunomaduro/larastan": "^2.0.1",
         "orchestra/testbench": "^7.0",
         "pestphp/pest": "^1.21",
@@ -32,7 +37,7 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5|^10.0"
     },
     "autoload": {
         "psr-4": {
